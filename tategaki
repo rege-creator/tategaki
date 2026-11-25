@@ -8,4 +8,12 @@ a = input().split()
 m = max(len(s) for s in a)
 
 reverse_a = a[::-1]
-print(reverse_a)
+
+for i in range(m):
+	tate = ""
+	for s in reverse_a:
+		if i < len(s):
+			tate += s[i]
+		else :
+			tate += "　"
+	print(tate)
