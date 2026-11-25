@@ -13,7 +13,7 @@ for i in range(m):
 	tate = ""
 	for s in reverse_a:
 		if i < len(s):
-			tate += s[i]
+			tate += s[i] + " "
 		else :
-			tate += "　"
+			tate += "　 "
 	print(tate)
