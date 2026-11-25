@@ -6,4 +6,6 @@ import sys
 
 a = input().split()
 m = max(len(s) for s in a)
-print(m)
+
+reverse_s = [s[::-1] for s in a]
+print(reverse_s)
