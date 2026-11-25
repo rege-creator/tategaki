@@ -2,8 +2,6 @@
 # SPDX-FileCopyrightText: 2026 rege-creator
 # SPDX-License-Identifier: BSD-3-Clause
 
-import sys
-
 a = input().split()
 m = max(len(s) for s in a)
 
@@ -14,6 +12,6 @@ for i in range(m):
 	for s in reverse_a:
 		if i < len(s):
 			tate += s[i] + " "
-		else :
+		else:
 			tate += "　 "
 	print(tate)
