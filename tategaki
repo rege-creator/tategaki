@@ -7,5 +7,5 @@ import sys
 a = input().split()
 m = max(len(s) for s in a)
 
-reverse_s = [s[::-1] for s in a]
-print(reverse_s)
+reverse_a = a[::-1]
+print(reverse_a)
