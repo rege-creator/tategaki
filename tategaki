@@ -5,4 +5,5 @@
 import sys
 
 a = input().split()
-print(a)
+m = max(len(s) for s in a)
+print(m)
